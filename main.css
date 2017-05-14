@@ -1,0 +1,143 @@
+div {
+	border: 1px solid #a8b2bd;
+	background-color: #e2ded5;
+}
+body {
+	background-color: #a8b2bd;
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica", Arial;
+	text-transform: capitalize;
+	color: #92867b;
+}
+#container {
+	width: 800px;
+	margin: auto;
+}
+#header {
+	width: 288px;
+	display: inline-block;
+}
+#header a {
+	height: 50px;
+	font-family: "fantasy", Arial;
+	letter-spacing: 3px;
+	font-size: 2em;
+	padding:0 20px;
+	line-height:40px;
+	color:#92867b;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration: none;
+}
+#nav {
+	height: 40px;
+	float: right;
+}
+#nav ul {
+	margin: 0 auto;
+	padding: 0 0 0;
+	list-style-position: inside;
+	border-top: 1px dotted #92867b;
+	border-bottom: 1px dotted #92867b;
+	text-align: center;
+	width: 100%;
+}
+ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 1px 0;
+	display: inline;
+}
+#nav ul li a
+{
+	padding: 0 20px ;
+	line-height:40px;
+	color:#92867b;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration: none;
+}
+#nav ul li a:hover, #links ul li a.active , #links ul li a:hover, #links ul li a.active, #footer a:hover, #footer a.active {
+	color: #333;
+}
+
+#sidebar {
+	float: right;
+	width: 300px;
+	height: 400px;
+	padding-left: 10px;
+}
+#content {
+	height: 400px;
+}
+h2 {
+font-size: 1.4em;
+font-weight: bold;
+color: #92867b;
+text-shadow: 0 2px 0 #eee;
+margin: 5px;
+}
+#content li a
+{
+ text-decoration: none;
+ color:#333;
+ padding:10px 10px 10px 10px;
+ margin: 5px;
+ display:block;
+ color:#afafaf;
+ font-size:103%;
+ border-bottom: 1px dotted #CCC
+}
+.info img {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 10px;
+}
+#footer a {
+color: #92867b;
+padding:10px 0 10px 20px;
+display: inline-block;
+font-size:90%;
+text-decoration: none;
+color:#afafaf;
+font-size:103%;
+border-bottom: 1px dotted #CCC
+}
+#altnav {
+	text-align: center;
+}
+#author-img img {
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+#socials img {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+#socials, #contacts {
+	height: 178px;
+	text-align: center;
+	padding:10px 0 10px 20px;
+}
+.address{
+	color:#afafaf;
+	font-size: 1.2em;
+}
+#works img {
+	width: 180px;
+	height: 180px;
+	padding: 0 10px 10px;
+}
+#links {
+	color: #92867b;
+	padding:10px 0 10px 20px;
+	font-size:90%;
+	text-decoration: none;
+	font-size:103%;
+	border-bottom: 1px dotted #CCC
+}
+
