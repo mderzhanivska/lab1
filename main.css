@@ -33,6 +33,7 @@ body {
 #nav {
 	height: 40px;
 	float: right;
+	clear: both;
 }
 #nav ul {
 	margin: 0 auto;
